@@ -1,0 +1,59 @@
+@use "sass:map";
+
+$deep-navy: #0e152b;
+$deep-teal-navy: #073646;
+$bright-teal: #058797;
+$steal-blue: #205295;
+$ocean-blue: #144272;
+
+$jade-green: #006e60;
+$amber-gold: #f68803;
+$raspberry-red: #d21f3c;
+$deep-cyan: #0288a4;
+
+$muted-teal: #66b2b2;
+$slate-grey: #d3dce4;
+$light-blue: #4a90e2;
+$light-grey: #e4e8ec;
+$off-white: #f5f7fa;
+$almost-black: #1e1e1e;
+$white: #ffffff;
+$coral-grey: #54626f;
+
+$jade-light: #b6f2d3;
+$amber-light: #ffe2b2;
+$raspberry-light: #f9c8d0;
+$steel-blue-light: #c3d9f4;
+$black-coral-light: #f1efee;
+$muted-grey: #a9a9a9;
+
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+$breakpoint-xxl: 1400px;
+
+$font-12: 12px;
+$font-13: 13px;
+$font-14: 14px;
+$font-15: 15px;
+$font-16: 16px;
+$font-18: 18px;
+$font-20: 20px;
+$font-24: 24px;
+$font-26: 26px;
+$font-32: 32px;
+$font-36: 36px;
+$font-40: 40px;
+
+$font-primary: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+$font-secondary: "Georgia", "Times New Roman", serif;
+$font-mono: "Courier New", Courier, monospace;
+
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+$font-style-normal: normal;
+$font-style-italic: italic;

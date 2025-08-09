@@ -1,0 +1,623 @@
+@use "variables" as *;
+
+// =============================================================================
+// COLOR UTILITIES
+// =============================================================================
+
+// Text Colors
+.text-deep-navy {
+	color: $deep-navy !important;
+}
+.text-deep-teal-navy {
+	color: $deep-teal-navy !important;
+}
+.text-bright-teal {
+	color: $bright-teal !important;
+}
+.text-steal-blue {
+	color: $steal-blue !important;
+}
+.text-ocean-blue {
+	color: $ocean-blue !important;
+}
+.text-jade-green {
+	color: $jade-green !important;
+}
+.text-amber-gold {
+	color: $amber-gold !important;
+}
+.text-raspberry-red {
+	color: $raspberry-red !important;
+}
+.text-deep-cyan {
+	color: $deep-cyan !important;
+}
+.text-muted-teal {
+	color: $muted-teal !important;
+}
+.text-slate-grey {
+	color: $slate-grey !important;
+}
+.text-light-blue {
+	color: $light-blue !important;
+}
+.text-light-grey {
+	color: $light-grey !important;
+}
+.text-off-white {
+	color: $off-white !important;
+}
+.text-almost-black {
+	color: $almost-black !important;
+}
+.text-white {
+	color: $white !important;
+}
+.text-coral-grey {
+	color: $coral-grey !important;
+}
+.text-jade-light {
+	color: $jade-light !important;
+}
+.text-amber-light {
+	color: $amber-light !important;
+}
+.text-raspberry-light {
+	color: $raspberry-light !important;
+}
+.text-steel-blue-light {
+	color: $steel-blue-light !important;
+}
+.text-black-coral-light {
+	color: $black-coral-light !important;
+}
+.text-muted-grey {
+	color: $muted-grey !important;
+}
+
+// Background Colors
+.bg-deep-navy {
+	background-color: $deep-navy !important;
+}
+.bg-deep-teal-navy {
+	background-color: $deep-teal-navy !important;
+}
+.bg-bright-teal {
+	background-color: $bright-teal !important;
+}
+.bg-steal-blue {
+	background-color: $steal-blue !important;
+}
+.bg-ocean-blue {
+	background-color: $ocean-blue !important;
+}
+.bg-jade-green {
+	background-color: $jade-green !important;
+}
+.bg-amber-gold {
+	background-color: $amber-gold !important;
+}
+.bg-raspberry-red {
+	background-color: $raspberry-red !important;
+}
+.bg-deep-cyan {
+	background-color: $deep-cyan !important;
+}
+.bg-muted-teal {
+	background-color: $muted-teal !important;
+}
+.bg-slate-grey {
+	background-color: $slate-grey !important;
+}
+.bg-light-blue {
+	background-color: $light-blue !important;
+}
+.bg-light-grey {
+	background-color: $light-grey !important;
+}
+.bg-off-white {
+	background-color: $off-white !important;
+}
+.bg-almost-black {
+	background-color: $almost-black !important;
+}
+.bg-white {
+	background-color: $white !important;
+}
+.bg-coral-grey {
+	background-color: $coral-grey !important;
+}
+.bg-jade-light {
+	background-color: $jade-light !important;
+}
+.bg-amber-light {
+	background-color: $amber-light !important;
+}
+.bg-raspberry-light {
+	background-color: $raspberry-light !important;
+}
+.bg-steel-blue-light {
+	background-color: $steel-blue-light !important;
+}
+.bg-black-coral-light {
+	background-color: $black-coral-light !important;
+}
+.bg-muted-grey {
+	background-color: $muted-grey !important;
+}
+
+// Border Colors
+.border-deep-navy {
+	border-color: $deep-navy !important;
+}
+.border-deep-teal-navy {
+	border-color: $deep-teal-navy !important;
+}
+.border-bright-teal {
+	border-color: $bright-teal !important;
+}
+.border-steal-blue {
+	border-color: $steal-blue !important;
+}
+.border-ocean-blue {
+	border-color: $ocean-blue !important;
+}
+.border-jade-green {
+	border-color: $jade-green !important;
+}
+.border-amber-gold {
+	border-color: $amber-gold !important;
+}
+.border-raspberry-red {
+	border-color: $raspberry-red !important;
+}
+.border-deep-cyan {
+	border-color: $deep-cyan !important;
+}
+.border-muted-teal {
+	border-color: $muted-teal !important;
+}
+.border-slate-grey {
+	border-color: $slate-grey !important;
+}
+.border-light-blue {
+	border-color: $light-blue !important;
+}
+.border-light-grey {
+	border-color: $light-grey !important;
+}
+.border-off-white {
+	border-color: $off-white !important;
+}
+.border-almost-black {
+	border-color: $almost-black !important;
+}
+.border-white {
+	border-color: $white !important;
+}
+.border-coral-grey {
+	border-color: $coral-grey !important;
+}
+.border-jade-light {
+	border-color: $jade-light !important;
+}
+.border-amber-light {
+	border-color: $amber-light !important;
+}
+.border-raspberry-light {
+	border-color: $raspberry-light !important;
+}
+.border-steel-blue-light {
+	border-color: $steel-blue-light !important;
+}
+.border-black-coral-light {
+	border-color: $black-coral-light !important;
+}
+.border-muted-grey {
+	border-color: $muted-grey !important;
+}
+
+// =============================================================================
+// TYPOGRAPHY UTILITIES
+// =============================================================================
+
+// Font Sizes
+.font-12 {
+	font-size: $font-12 !important;
+}
+.font-13 {
+	font-size: $font-13 !important;
+}
+.font-14 {
+	font-size: $font-14 !important;
+}
+.font-15 {
+	font-size: $font-15 !important;
+}
+.font-16 {
+	font-size: $font-16 !important;
+}
+.font-18 {
+	font-size: $font-18 !important;
+}
+.font-20 {
+	font-size: $font-20 !important;
+}
+.font-24 {
+	font-size: $font-24 !important;
+}
+.font-26 {
+	font-size: $font-26 !important;
+}
+.font-32 {
+	font-size: $font-32 !important;
+}
+.font-36 {
+	font-size: $font-36 !important;
+}
+.font-40 {
+	font-size: $font-40 !important;
+}
+
+// Font Families
+.font-primary {
+	font-family: $font-primary !important;
+}
+.font-secondary {
+	font-family: $font-secondary !important;
+}
+.font-mono {
+	font-family: $font-mono !important;
+}
+
+// Font Weights
+.font-regular {
+	font-weight: $font-weight-regular !important;
+}
+.font-medium {
+	font-weight: $font-weight-medium !important;
+}
+.font-semibold {
+	font-weight: $font-weight-semibold !important;
+}
+.font-bold {
+	font-weight: $font-weight-bold !important;
+}
+
+// Font Styles
+.font-normal {
+	font-style: $font-style-normal !important;
+}
+.font-italic {
+	font-style: $font-style-italic !important;
+}
+
+// =============================================================================
+// RESPONSIVE UTILITIES
+// =============================================================================
+
+// Responsive Display Utilities
+@media (max-width: #{$breakpoint-sm - 1px}) {
+	.d-xs-none {
+		display: none !important;
+	}
+	.d-xs-block {
+		display: block !important;
+	}
+	.d-xs-inline {
+		display: inline !important;
+	}
+	.d-xs-inline-block {
+		display: inline-block !important;
+	}
+	.d-xs-flex {
+		display: flex !important;
+	}
+	.d-xs-inline-flex {
+		display: inline-flex !important;
+	}
+}
+
+@media (min-width: #{$breakpoint-sm}) and (max-width: #{$breakpoint-md - 1px}) {
+	.d-sm-none {
+		display: none !important;
+	}
+	.d-sm-block {
+		display: block !important;
+	}
+	.d-sm-inline {
+		display: inline !important;
+	}
+	.d-sm-inline-block {
+		display: inline-block !important;
+	}
+	.d-sm-flex {
+		display: flex !important;
+	}
+	.d-sm-inline-flex {
+		display: inline-flex !important;
+	}
+}
+
+@media (min-width: #{$breakpoint-md}) and (max-width: #{$breakpoint-lg - 1px}) {
+	.d-md-none {
+		display: none !important;
+	}
+	.d-md-block {
+		display: block !important;
+	}
+	.d-md-inline {
+		display: inline !important;
+	}
+	.d-md-inline-block {
+		display: inline-block !important;
+	}
+	.d-md-flex {
+		display: flex !important;
+	}
+	.d-md-inline-flex {
+		display: inline-flex !important;
+	}
+}
+
+@media (min-width: #{$breakpoint-lg}) and (max-width: #{$breakpoint-xl - 1px}) {
+	.d-lg-none {
+		display: none !important;
+	}
+	.d-lg-block {
+		display: block !important;
+	}
+	.d-lg-inline {
+		display: inline !important;
+	}
+	.d-lg-inline-block {
+		display: inline-block !important;
+	}
+	.d-lg-flex {
+		display: flex !important;
+	}
+	.d-lg-inline-flex {
+		display: inline-flex !important;
+	}
+}
+
+@media (min-width: #{$breakpoint-xl}) and (max-width: #{$breakpoint-xxl - 1px}) {
+	.d-xl-none {
+		display: none !important;
+	}
+	.d-xl-block {
+		display: block !important;
+	}
+	.d-xl-inline {
+		display: inline !important;
+	}
+	.d-xl-inline-block {
+		display: inline-block !important;
+	}
+	.d-xl-flex {
+		display: flex !important;
+	}
+	.d-xl-inline-flex {
+		display: inline-flex !important;
+	}
+}
+
+@media (min-width: #{$breakpoint-xxl}) {
+	.d-xxl-none {
+		display: none !important;
+	}
+	.d-xxl-block {
+		display: block !important;
+	}
+	.d-xxl-inline {
+		display: inline !important;
+	}
+	.d-xxl-inline-block {
+		display: inline-block !important;
+	}
+	.d-xxl-flex {
+		display: flex !important;
+	}
+	.d-xxl-inline-flex {
+		display: inline-flex !important;
+	}
+}
+
+// =============================================================================
+// GENERAL DISPLAY UTILITIES
+// =============================================================================
+
+.d-none {
+	display: none !important;
+}
+.d-block {
+	display: block !important;
+}
+.d-inline {
+	display: inline !important;
+}
+.d-inline-block {
+	display: inline-block !important;
+}
+.d-flex {
+	display: flex !important;
+}
+.d-inline-flex {
+	display: inline-flex !important;
+}
+.d-grid {
+	display: grid !important;
+}
+.d-table {
+	display: table !important;
+}
+.d-table-cell {
+	display: table-cell !important;
+}
+
+// =============================================================================
+// FLEXBOX UTILITIES
+// =============================================================================
+
+// Flex Direction
+.flex-row {
+	flex-direction: row !important;
+}
+.flex-row-reverse {
+	flex-direction: row-reverse !important;
+}
+.flex-column {
+	flex-direction: column !important;
+}
+.flex-column-reverse {
+	flex-direction: column-reverse !important;
+}
+
+// Flex Wrap
+.flex-wrap {
+	flex-wrap: wrap !important;
+}
+.flex-nowrap {
+	flex-wrap: nowrap !important;
+}
+.flex-wrap-reverse {
+	flex-wrap: wrap-reverse !important;
+}
+
+// Justify Content
+.justify-start {
+	justify-content: flex-start !important;
+}
+.justify-end {
+	justify-content: flex-end !important;
+}
+.justify-center {
+	justify-content: center !important;
+}
+.justify-between {
+	justify-content: space-between !important;
+}
+.justify-around {
+	justify-content: space-around !important;
+}
+.justify-evenly {
+	justify-content: space-evenly !important;
+}
+
+// Align Items
+.align-start {
+	align-items: flex-start !important;
+}
+.align-end {
+	align-items: flex-end !important;
+}
+.align-center {
+	align-items: center !important;
+}
+.align-baseline {
+	align-items: baseline !important;
+}
+.align-stretch {
+	align-items: stretch !important;
+}
+
+// Align Content
+.align-content-start {
+	align-content: flex-start !important;
+}
+.align-content-end {
+	align-content: flex-end !important;
+}
+.align-content-center {
+	align-content: center !important;
+}
+.align-content-between {
+	align-content: space-between !important;
+}
+.align-content-around {
+	align-content: space-around !important;
+}
+.align-content-stretch {
+	align-content: stretch !important;
+}
+
+// Flex Grow/Shrink
+.flex-fill {
+	flex: 1 1 auto !important;
+}
+.flex-grow-0 {
+	flex-grow: 0 !important;
+}
+.flex-grow-1 {
+	flex-grow: 1 !important;
+}
+.flex-shrink-0 {
+	flex-shrink: 0 !important;
+}
+.flex-shrink-1 {
+	flex-shrink: 1 !important;
+}
+
+// =============================================================================
+// TEXT UTILITIES
+// =============================================================================
+
+// Text Alignment
+.text-left {
+	text-align: left !important;
+}
+.text-right {
+	text-align: right !important;
+}
+.text-center {
+	text-align: center !important;
+}
+.text-justify {
+	text-align: justify !important;
+}
+
+// Text Transform
+.text-lowercase {
+	text-transform: lowercase !important;
+}
+.text-uppercase {
+	text-transform: uppercase !important;
+}
+.text-capitalize {
+	text-transform: capitalize !important;
+}
+
+// Text Decoration
+.text-underline {
+	text-decoration: underline !important;
+}
+.text-line-through {
+	text-decoration: line-through !important;
+}
+.text-no-decoration {
+	text-decoration: none !important;
+}
+
+// White Space
+.text-wrap {
+	white-space: normal !important;
+}
+.text-nowrap {
+	white-space: nowrap !important;
+}
+.text-pre {
+	white-space: pre !important;
+}
+.text-pre-line {
+	white-space: pre-line !important;
+}
+.text-pre-wrap {
+	white-space: pre-wrap !important;
+}
+
+// Text Overflow
+.text-truncate {
+	overflow: hidden !important;
+	text-overflow: ellipsis !important;
+	white-space: nowrap !important;
+}
