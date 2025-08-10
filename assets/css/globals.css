@@ -213,8 +213,8 @@ body {
 	flex-shrink: 0;
 	justify-content: center;
 	align-items: center;
-	gap: 3px;
-	height: 26px;
+	gap: 4px;
+	height: 25px;
 	border: 1px solid;
 	border-radius: 100px;
 	margin: 5px;
@@ -223,24 +223,32 @@ body {
 	font-weight: var(--font-weight-semibold);
 }
 
+.chip svg {
+	display: block;
+}
+
 .chip-yellow {
 	background-color: var(--amber-light);
 	color: var(--amber-gold);
+	border-color: var(--amber-gold);
 }
 
 .chip-green {
 	background-color: var(--jade-light);
 	color: var(--jade-green);
+	border-color: var(--jade-green);
 }
 
 .chip-blue {
 	background-color: var(--steel-blue-light);
 	color: var(--steal-blue);
+	border-color: var(--steal-blue);
 }
 
 .chip-red {
 	background-color: var(--raspberry-light);
 	color: var(--raspberry-red);
+	border-color: var(--raspberry-red);
 }
 
 .pending {
